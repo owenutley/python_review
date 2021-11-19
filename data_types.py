@@ -17,8 +17,16 @@ print("x = ['item1', 'item2', 'item3'] is\n", type(x), "\n")
 x = ('item1', 'item2', 'item3')
 print("x = ('item1', 'item2', 'item3') is\n", type(x), "\n")
 
+
 x = {'one': 1, 'two': 2, 'three': 3}
 print("x = {'one': 1, 'two': 2, 'three': 3} is\n", type(x), "\n")
 
+
 x = True
 print("x = True is\n", type(x), "\n")
+
+
+x = (5+2j)
+print(F"{x} is\n", type(x), "\n")
+
+
